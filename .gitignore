@@ -1,0 +1,9 @@
+.idea
+*.ipr
+*.iml
+*.iws
+target/
+dist/
+.cache/
+node_modules/
+lsp/
