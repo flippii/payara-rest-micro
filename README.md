@@ -1,6 +1,6 @@
 ## Microprofile Example
 
-A example with JAX-RS, Hal, OpenApi Doc, JPA, Config, Security and Metrics
+A example with JAX-RS, Hal, OpenApi Doc, JPA, PostgresSQL, Flyway, Config, Security and Metrics for Microprofile App's with Payara-Micro.
 
 ## Development with IntelliJ IDEA and Payara Micro
 
