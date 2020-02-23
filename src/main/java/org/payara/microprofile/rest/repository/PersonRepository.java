@@ -10,7 +10,7 @@ import java.util.List;
 @ApplicationScoped
 public class PersonRepository {
 
-    @PersistenceContext(unitName = "SAMPLE_PU")
+    @PersistenceContext(unitName = "JPADatasourceExamplePU")
     private EntityManager em;
 
     public void create(Person person) {
