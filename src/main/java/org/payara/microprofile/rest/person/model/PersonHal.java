@@ -1,4 +1,4 @@
-package org.payara.microprofile.rest.resources.model;
+package org.payara.microprofile.rest.person.model;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import io.openapitools.jackson.dataformat.hal.HALLink;

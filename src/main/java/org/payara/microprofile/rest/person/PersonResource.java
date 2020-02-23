@@ -1,4 +1,4 @@
-package org.payara.microprofile.rest.resources;
+package org.payara.microprofile.rest.person;
 
 import org.eclipse.microprofile.openapi.annotations.Operation;
 import org.eclipse.microprofile.openapi.annotations.enums.SchemaType;
@@ -8,11 +8,9 @@ import org.eclipse.microprofile.openapi.annotations.parameters.Parameter;
 import org.eclipse.microprofile.openapi.annotations.parameters.Parameters;
 import org.eclipse.microprofile.openapi.annotations.responses.APIResponse;
 import org.eclipse.microprofile.openapi.annotations.responses.APIResponses;
-import org.payara.microprofile.rest.entity.Person;
-import org.payara.microprofile.rest.exception.PersonException;
-import org.payara.microprofile.rest.resources.mapper.PersonMapper;
-import org.payara.microprofile.rest.resources.model.PersonHal;
-import org.payara.microprofile.rest.service.PersonService;
+import org.payara.microprofile.rest.person.entity.Person;
+import org.payara.microprofile.rest.person.mapper.PersonMapper;
+import org.payara.microprofile.rest.person.model.PersonHal;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
@@ -54,7 +52,7 @@ public class PersonResource {
                     content = @Content(schema = @Schema(implementation = Person.class)))
     })
     public Response createPerson(@Context UriInfo uriInfo, @Valid Person newPerson) {
-        LOG.log(Level.INFO, "REST request to save Person : {0}", newPerson);
+        LOG.log(Level.INFO, "REST request to save Person : {0}.", newPerson);
         if (newPerson.getId() != null) {
             throw new PersonException("A person need no id for update.");
         }

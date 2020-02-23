@@ -1,9 +1,9 @@
-package org.payara.microprofile.rest.resources.mapper;
+package org.payara.microprofile.rest.person.mapper;
 
 import io.openapitools.jackson.dataformat.hal.HALLink;
-import org.payara.microprofile.rest.entity.Person;
-import org.payara.microprofile.rest.resources.PersonResource;
-import org.payara.microprofile.rest.resources.model.PersonHal;
+import org.payara.microprofile.rest.person.entity.Person;
+import org.payara.microprofile.rest.person.PersonResource;
+import org.payara.microprofile.rest.person.model.PersonHal;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.ws.rs.core.UriInfo;

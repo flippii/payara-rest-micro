@@ -1,4 +1,4 @@
-package org.payara.microprofile.rest.resources;
+package org.payara.microprofile.rest.person;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -7,7 +7,7 @@ import org.microshed.testing.jupiter.MicroShedTest;
 import org.microshed.testing.testcontainers.ApplicationContainer;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
-import org.payara.microprofile.rest.resources.model.PersonHal;
+import org.payara.microprofile.rest.person.model.PersonHal;
 import org.testcontainers.junit.jupiter.Container;
 
 import javax.ws.rs.core.UriInfo;

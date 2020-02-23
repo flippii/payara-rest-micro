@@ -1,7 +1,6 @@
-package org.payara.microprofile.rest.service;
+package org.payara.microprofile.rest.person;
 
-import org.payara.microprofile.rest.entity.Person;
-import org.payara.microprofile.rest.repository.PersonRepository;
+import org.payara.microprofile.rest.person.entity.Person;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;

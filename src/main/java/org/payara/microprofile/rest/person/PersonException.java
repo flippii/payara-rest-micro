@@ -1,4 +1,4 @@
-package org.payara.microprofile.rest.exception;
+package org.payara.microprofile.rest.person;
 
 public class PersonException extends RuntimeException {
 

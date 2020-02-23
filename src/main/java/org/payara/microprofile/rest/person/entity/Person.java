@@ -1,4 +1,4 @@
-package org.payara.microprofile.rest.entity;
+package org.payara.microprofile.rest.person.entity;
 
 import org.eclipse.microprofile.openapi.annotations.media.Schema;
 

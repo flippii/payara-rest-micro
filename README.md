@@ -70,6 +70,12 @@ REST Services: http://localhost:8080
 - DELETE	/rest-micro/api/person/{id}
 - GET	/rest-micro/api/person/{id}
 
+Metrics + Health:
+- http://localhost:8080/health
+- http://localhost:8080/health/ready
+- http://localhost:8080/health/live
+- http://localhost:8080/metrics
+
 OpenApi UI: 
 - http://localhost:8080/rest-micro/api/openapi-ui
 
